@@ -1,0 +1,7 @@
+# mysql.cnf
+
+[client]
+database = 'yejs'
+host = 'yejs.cafe24.com'
+user = 'yejs'
+password = 'skfnxh99'
