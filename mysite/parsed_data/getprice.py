@@ -58,7 +58,7 @@ class stock_price_all:
 
         make_json_stock_price_data('http://finance.daum.net/domestic/all_stocks?market=KOSPI')
         make_json_stock_price_data('http://finance.daum.net/domestic/all_stocks?market=KOSDAQ')
-        with open(os.path.join(BASE_DIR, 'result.json'), 'w+') as json_file:
+        with open(os.path.join(BASE_DIR+'/templates/stock/', 'price.json'), 'w+') as json_file:
             json.dump(data, json_file)
 
         #for n in notices:
